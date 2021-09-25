@@ -1,11 +1,14 @@
+install:
+	go mod tidy
+
 lint:
 	go fmt ./...
 
-test:
+test: install
 	go test -v ./...
 
-build:
+build: install
 	go build -v .
 
-run:
+run: install
 	go run main.go
