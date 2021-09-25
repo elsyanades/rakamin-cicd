@@ -18,4 +18,4 @@ jobs:
         uses: docker/build-push-action@v2
         with:
           push: true
-          tags: elsyanades/app:latest
+          tags: elsyanades/rakamin-test-cicd:latest
