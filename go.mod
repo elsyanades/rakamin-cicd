@@ -1,4 +1,4 @@
-module handson-serverde
+module handson-serverdev
 
 go 1.16
 
